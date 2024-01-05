@@ -33,5 +33,5 @@ async function writeToSheetFromVault(value) {
 // Получение значения из поля на странице
 const inputValue = document.getElementById('yourInputFieldId').value;
 
-// Вызов функции записи в таблицу с использованием данных из Vault
+// Вызов функции записи в таблицу с использованием данных из Vault но это не точно
 writeToSheetFromVault(inputValue);
